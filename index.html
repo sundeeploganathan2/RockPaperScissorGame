@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissor Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <header>
+      <h1>Rock Paper Scissors</h1>
+  </header>
+  <div class ="score-board">
+      <div id="user-label" class="scoreboardBadge">USER</div>
+      <div id="computer-label" class="scoreboardBadge">COMPUTER</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+  </div>
+ <button class="button" id="btnRestartGame" onclick="location.reload();">Restart Game</button>
+  <div class="result">
+      <h2 >Let the game begin..!!!</h2>
+  </div>
+  
+  <div class="choices">
+      <div class="choice" id="r">
+          <img src="images/rock.png">
+      </div>
+      <div class="choice" id="p">
+          <img src="images/paper.png">
+      </div>
+      <div class="choice" id="s">
+          <img src="images/scissor.png">
+      </div>
+  </div>
+  <h2 id="action-message">Make your move !!!</h2>
+   <hr/>
+  
+  <div class="game-rules" border-style: solid; >
+  <h4>Rules of the game</h4>
+      <img class="rpsRulesImage" src="images/Rock-paper-scissors-rules.png" height ="260" width="260" alt="">
+  </div>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
